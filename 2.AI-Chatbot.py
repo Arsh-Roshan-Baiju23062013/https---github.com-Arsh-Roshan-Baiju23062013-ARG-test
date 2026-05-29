@@ -20,10 +20,10 @@ username=simpledialog.askstring("Name", "Enter your name:")
 
 try:
     img = Image.open("Send_Button-removebg-preview.png")
-    img = img.resize((60, 60))
+    img = img.resize((30, 30))
     icon = ImageTk.PhotoImage(img)
     Icon_label = Label(screen_1, bg="DeepSkyBlue2", image=icon)
-    Icon_label.pack(pady=10)
+    Icon_label.pack(pady=1)
 except:
     pass
 
